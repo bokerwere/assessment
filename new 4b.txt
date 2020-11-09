@@ -1,0 +1,4 @@
+
+Select c.name ,b.name , count(a.studentid) from student a,couse b, institution c
+Where a.couseid=b.couseid
+And  b.instutionid=c.instutionid 
